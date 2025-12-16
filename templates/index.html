@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Password Roaster Pro</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body class="dark">
+
+<div class="container">
+  <h1>🔥 Password Roaster Pro</h1>
+
+  <input type="password" id="password" placeholder="Enter password">
+
+  <select id="style">
+    <option value="savage">😈 Savage</option>
+    <option value="funny">😂 Funny</option>
+    <option value="polite">😊 Polite</option>
+  </select>
+
+  <button onclick="checkPassword()">Check</button>
+
+  <div class="bar">
+    <div id="strength"></div>
+  </div>
+
+  <p id="roast"></p>
+  <p id="strengthText"></p>
+
+  <div class="suggestion-box">
+    <span id="suggestion"></span>
+    <button onclick="copyPassword()">📋</button>
+  </div>
+
+  <button onclick="toggleMode()">🌙 Toggle Mode</button>
+</div>
+
+<script src="/static/script.js"></script>
+</body>
+</html>

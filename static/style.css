@@ -1,0 +1,118 @@
+/* ---------- Global ---------- */
+body {
+  font-family: Arial, sans-serif;
+  transition: background 0.3s, color 0.3s;
+}
+
+/* ---------- Themes ---------- */
+body.dark {
+  background: #0f172a;
+  color: white;
+}
+
+body.light {
+  background: #f8fafc;
+  color: black;
+}
+
+/* ---------- Container ---------- */
+.container {
+  width: 350px;
+  margin: 80px auto;
+  padding: 25px;
+  border-radius: 12px;
+  background: #1e293b;
+  transition: background 0.3s;
+}
+
+body.light .container {
+  background: #e5e7eb;
+}
+
+/* ---------- Inputs & Buttons ---------- */
+input,
+select,
+button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 6px;
+  border: none;
+  font-size: 14px;
+}
+
+input,
+select {
+  outline: none;
+}
+
+button {
+  cursor: pointer;
+  font-weight: bold;
+  background: #6366f1;
+  color: white;
+  transition: background 0.2s;
+}
+
+button:hover {
+  background: #4f46e5;
+}
+
+body.light button {
+  background: #4f46e5;
+}
+
+/* ---------- Strength Bar ---------- */
+.bar {
+  width: 100%;
+  height: 12px;
+  background: #334155;
+  margin-top: 15px;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+#strength {
+  height: 100%;
+  width: 0%;
+  border-radius: 6px;
+  transition: width 0.4s ease;
+}
+
+/* ---------- Text ---------- */
+#roast {
+  margin-top: 12px;
+  font-weight: bold;
+}
+
+#strengthText {
+  margin-top: 5px;
+  font-size: 14px;
+  opacity: 0.9;
+}
+
+/* ---------- Suggestion Box ---------- */
+.suggestion-box {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  gap: 6px;
+}
+
+.suggestion-box span {
+  flex: 1;
+  background: #020617;
+  padding: 8px;
+  border-radius: 6px;
+  font-size: 13px;
+  overflow-wrap: anywhere;
+}
+
+body.light .suggestion-box span {
+  background: #cbd5f5;
+}
+
+.suggestion-box button {
+  width: auto;
+  padding: 8px 10px;
+}
