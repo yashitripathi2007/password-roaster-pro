@@ -5,6 +5,8 @@ A fun yet secure **password strength checker** that roasts your weak passwords w
 Built as a **full-stack web app** using Python (Flask) and modern frontend tools.
 
 ---
+## 🚀 Live Demo
+🔗 https://password-roaster-pro.onrender.com
 
 ## 🚀 Features
 - 🔥 Animated password strength bar  
